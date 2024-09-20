@@ -1,0 +1,1 @@
+yarn --quiet dlx sort-package-json --quiet package.json && git add package.json

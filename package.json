@@ -1,0 +1,30 @@
+{
+  "name": "serverless-function-image",
+  "version": "0.0.0-development",
+  "keywords": [
+    "serverless",
+    "plugin",
+    "lambda",
+    "docker",
+    "dockerfile"
+  ],
+  "homepage": "https://github.com/vicary/serverless-function-image",
+  "bugs": {
+    "url": "https://github.com/vicary/serverless-function-image.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicary/serverless-function-image.git"
+  },
+  "license": "MIT",
+  "author": "Vicary Archangel <vicary.archangel@member.mensa.org>",
+  "main": "src/index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "semantic-release": "^24.1.1"
+  },
+  "packageManager": "yarn@4.5.0"
+}
